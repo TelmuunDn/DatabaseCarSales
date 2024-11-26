@@ -41,20 +41,22 @@ app.get('/', function(req, res){
 
     // Get the database info 
     // Creat a variable that will contain the query
-    // let sql = "SELECT * FROM mysql_table"; // this will be ran in mysql workbench
+     //let sql = "SELECT * FROM mysql_table"; // this will be ran in mysql workbench
     
     // // Pass in the connection and send the information to rescieve the respons
-    // connection.query(sql, function(err, results){
+    //connection.query(sql, function(err, results){
     //     // Catch errors and throw them 
-    //     if(err) throw err; // If error throw error 
+         //if(err) throw err; // If error throw error 
         
-    //     res.send(results); // Otherwise send the results 
+         //res.send(results); // Otherwise send the results 
     // })
 
 
-    // res.send("Port is working ok!");
+     //res.send("Port is working ok!");
 
 })
+
+
 
 
 // Create a POST method to send the information to the database
